@@ -11,7 +11,15 @@ Find examples of how to use the dataset in the [examples](examples/) folder. Her
 
 ## Installation
 
-The install the library with minimal dependencies, for instance to be used in a training environment without need for interactivity och visualization, run:
+Choose one of the following installation methods:
+### Conda
+Create env through conda and run example notebook [examples/devkit_tutorial.ipynb](examples/devkit_tutorial.ipynb) to get started.:
+```bash
+conda env create -f environment.yml
+```
+
+### Pip
+Or pip install the toolkit directly, The install the library with minimal dependencies, for instance to be used in a training environment without need for interactivity och visualization, run:
 ```bash
 pip install zod
 ```

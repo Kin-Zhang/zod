@@ -1,0 +1,33 @@
+name: zod
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - tqdm
+  - numpy
+  - scipy
+  - pillow
+  - h5py
+  - ipykernel
+  - typing
+  - pandas
+  - pip:
+    - pyquaternion
+    - numpy-quaternion
+    - dataclass-wizard
+    - importlib-metadata
+    - typing-extensions
+    - typer[all]
+    - dropbox
+    - opencv-python
+    - matplotlib
+    - plotly
+    - dash-bootstrap-components
+    - notebook
+    - imageio
+    - "zod[cli]"
+    - zod
+
+# Reason about the version fixed:
+# python=3.8: otherwise, you will get error: AttributeError: module 'typing' has no attribute 'get_args'
